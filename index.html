@@ -8,21 +8,49 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header></header>
-    <main>
+    <div class="wrapper">
+    <header>
+        <nav class="nav">
+            <ul class="nav_items">
+                <li>
+                    <a href="#AboutMe">About me</a>
+                </li>
+                <li>
+                    <a href="#Contacts">Contacts</a>
+                </li>
+                <li>
+                    <a href="#Skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#Education">Education</a> 
+                </li>
+                <li>
+                    <a href="#CodeExample">Code Example</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
         <div class="left"> 
         <img src="https://shikimori.one/system/characters/original/124731.jpg" alt=" Smth went wrong :(">
+        <section class="Contacts" id="Contacts">
+            <h2>Contacts</h2> 
+            <ul>
+        <li>Discord: Adamwert#1234</li>
+        <li>Email: Adamwert@gmail.com</li>
+            </ul>
+        </section>
         </div>
         <div class="right">
             <section>
             <h1>Adam Went</h1>
              <p>rs-school student</p>
              </section>
-             <section>
+             <section class="AboutMe" id="AboutMe">
             <h2>About me</h2>
              <p>I am love to learn smth new, love drink tea and read books. I have the dog, which I love bigger than my self </p>
              </section>
-             <section>
+             <section class="Skills" id="Skills">
             <h2>Skills</h2>
             <ul>
                 
@@ -32,10 +60,27 @@
                 <li>English level - B1</li>
             </ul>
             </section>
-            <section>
+            <section class="Education" id="Education">
                 <h2>Education</h2>
                 <p>NTU"DP"</p>
             </section>
+            <section class="CodeExample" id="CodeExample">
+                <h2>Code Example</h2>
+                <p>
+                    main{
+                        background-color: #0000FF;
+                    }
+                </p>
+            </section>
+            </div>
     </main>
+    <footer>
+        <section class="rsimg">
+     <a href="https://rs.school/js-stage0/" >
+        <img src="img/rs_school_js.svg" alt="smth went wrong">
+    </a>
+        </section>
+    </footer>
+    </div>
 </body>
 </html>
