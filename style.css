@@ -1,9 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
 .left {
 float: left;
-width: 30%;
-
+width: 15%;
+background-color: darkgoldenrod;
+min-height: 88vh;
+}
+.avatar{
+    width: 101%;
+    padding-bottom: 0;
 }
 .right{
+float: right;
+width: 85%;
+background-color: bisque;
+min-height: 88vh;
 }
 .rsimg{
 width: 100px;
@@ -12,10 +25,13 @@ width: 100px;
 .nav_items{
     display:flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 100px;
     margin-left: 100px;
     font-size: larger;
+}
+a{
+    text-decoration: none;
 }
 html,
 body{
@@ -28,4 +44,46 @@ body{
 }
 .main{
     flex: 1 1 auto;
+    font-size: 20px;
+}
+.inf{
+    padding: 60px;
+}
+.AboutMe{
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.Skills{
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.Education{
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.CodeExample{
+    padding: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.header{
+    background-color: gray;
+    padding: 20px;
+}
+footer{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 10px;
+    font-size: larger;
+}
+h2{
+background-color: gray;
+}
+ul{
+    list-style-type: none;
 }
